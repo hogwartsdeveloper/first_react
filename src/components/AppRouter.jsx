@@ -1,11 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { AuthContext } from "../context";
 import { privateRoutes, publicRoutes } from "../router/routs";
 import Loader from "./UI/loader/Loader";
 
 const AppRouter = () => {
-    const {isAuth, isLoading} = useContext(AuthContext);
+    const {isAuth, setIsAuth} = useContext(AuthContext);
+    const {isLoading, setLoading} = useContext(AuthContext);
+
+    useEffect(() => {
+        if (localStorage.getItem('auth')) {
+            setIsAuth(true);
+        }
+        setLoading(false);
+    }, [])
     
     if (isLoading) return <Loader/>
 

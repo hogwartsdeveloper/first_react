@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid #dfdfdf;
+    width: 18rem;
+    padding: 15px;
+    margin: 15px;
+}
+
+.card_title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card_id {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #80888e;
+    margin-bottom: 5px;
+}
+
+.card_body {
+    margin-bottom: 20px;
+}

@@ -6,7 +6,7 @@ import classes from './Navbar.module.css';
 
 
 const Navbar = () => {
-    const {isAuth, setIsAuth} = useContext(AuthContext);
+    const {/*isAuth,*/ setIsAuth} = useContext(AuthContext);
 
     const logout = () => {
         setIsAuth(false);

@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import PostService from "../API/PostService";
-import Card from '../components/UI/card/Card'
 import { useFetching } from "../hooks/useFetching";
 import { getPageCount } from "../utils/pages";
 import '../styles/App.css';
@@ -18,12 +17,12 @@ const Post = () => {
     const [filter, setFilter] = useState({sort: '', query: ''});
     const [modal, setModal] = useState(false);
     const [totalPages, setTotalPages] = useState(0);
-    const [limit, setLimit] = useState(10);
+    const [limit/*, setLimit*/] = useState(10);
     const [page, setPage] = useState(1);
     const sortedAndSearchedPosts = usePosts(posts, filter.sort, filter.query);
     const lastElement = useRef();
 
-    const [fetchPosts, isPostsLoading, postError] = useFetching(async (limit, page) => {
+    const [fetchPosts, isPostsLoading/*, postError*/] = useFetching(async (limit, page) => {
         const response = await PostService.getAll(limit, page);
         setPosts([...posts, ...response.data]);
 

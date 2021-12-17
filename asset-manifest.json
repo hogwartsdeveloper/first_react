@@ -1,13 +1,13 @@
 {
-  "main.css": "/first_react/static/css/main.8b3c4fc0.chunk.css",
-  "main.js": "/first_react/static/js/main.86ac400d.chunk.js",
-  "main.js.map": "/first_react/static/js/main.86ac400d.chunk.js.map",
-  "static/js/1.90a4297d.chunk.js": "/first_react/static/js/1.90a4297d.chunk.js",
-  "static/js/1.90a4297d.chunk.js.map": "/first_react/static/js/1.90a4297d.chunk.js.map",
+  "main.css": "/first_react/static/css/main.50488cd2.chunk.css",
+  "main.js": "/first_react/static/js/main.27900406.chunk.js",
+  "main.js.map": "/first_react/static/js/main.27900406.chunk.js.map",
+  "static/js/1.00c99912.chunk.js": "/first_react/static/js/1.00c99912.chunk.js",
+  "static/js/1.00c99912.chunk.js.map": "/first_react/static/js/1.00c99912.chunk.js.map",
   "runtime~main.js": "/first_react/static/js/runtime~main.08bd1f23.js",
   "runtime~main.js.map": "/first_react/static/js/runtime~main.08bd1f23.js.map",
-  "static/css/main.8b3c4fc0.chunk.css.map": "/first_react/static/css/main.8b3c4fc0.chunk.css.map",
+  "static/css/main.50488cd2.chunk.css.map": "/first_react/static/css/main.50488cd2.chunk.css.map",
   "index.html": "/first_react/index.html",
-  "precache-manifest.c87bf65c5d88301d0ca75512f525749f.js": "/first_react/precache-manifest.c87bf65c5d88301d0ca75512f525749f.js",
+  "precache-manifest.ad74e70577f5523a29e1069e5478d965.js": "/first_react/precache-manifest.ad74e70577f5523a29e1069e5478d965.js",
   "service-worker.js": "/first_react/service-worker.js"
 }

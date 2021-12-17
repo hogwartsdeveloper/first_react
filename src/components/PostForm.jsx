@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Button from "./UI/button/Button";
 import Input from "./UI/input/Input";
-import { useState } from "react/cjs/react.production.min";
 
 
 const PostForm = ({create}) => {
